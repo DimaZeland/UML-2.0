@@ -47,5 +47,3 @@
 variable-lenght array: append, copy, count, delete, index, insert, update
 symbol table: copy, count, index, intersect, insert, update
 set: append, copy, count, delete, update
-
-1.8. 
