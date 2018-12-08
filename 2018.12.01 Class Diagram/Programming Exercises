@@ -1,0 +1,28 @@
+UML Homework No. 2
+
+UML Class Diagram.
+The concept of an abstract class.
+The ratio of generalization (inheritance).
+Issued on 01.12.2018.
+
+Task 1. To construct a class diagram in the UML editor. Think which class (s) should be abstract (s).
+Tips for setting the task:
+class (or abstract class)
+class field
+
+The university consists of faculties, which consist of several institutes (departments). 
+Each faculty and each institution has a name. The institute knows the address.
+Each faculty is headed by a dean who is a university employee.
+Each employee has an identification number, a name, an e-mail.
+Among the staff there are jobseekers (carry out certain studies) and administrators. 
+Job seekers can work in several institutions. Each researcher has a particular subject of research. 
+In addition, searchers can participate in projects (do a certain number of hours).
+
+The project has a name, the start date, the end date.
+The searchers who teach courses are called lecturers.
+The course has a unique number, name, duration in hours per week.
+Each student has an identification number, a name, an e-mail.
+Each student attends a certain faculty and studies a certain set of subjects.
+
+Imagine the links that are known to you (inheritance) on the diagram. 
+Other necessary in your view, the link between classes mark normal lines.
