@@ -1,0 +1,43 @@
+Task 1. To refine (correct) a class diagram for a task from a house. work №2.
+Think which class (s) should be abstract (s). 
+On the association's (composition, aggregation) associations, signify the multiplicity of the association.
+Tips for setting the task:
+ class (or abstract class)
+ class field
+
+The university consists of faculties, which consist of several institutes (departments). Each faculty and each institution has a name. 
+The institute knows the address.
+Each faculty is headed by a dean who is a university employee.
+Each employee has an identification number, a name, an e-mail.
+Among the staff there are jobseekers (carry out certain studies) and administrators. 
+Job seekers can work in several institutions. Each researcher has a particular subject of research. 
+In addition, searchers can participate in projects (do a certain number of hours).
+The project has a name, the start date, the end date.
+The searchers who teach courses are called lecturers.
+The course has a unique number, name, duration in hours per week.
+Each student has an identification number, a name, an e-mail.
+Each student attends a certain faculty and studies a certain set of subjects.
+
+
+
+Task 2. Create a class diagram for the ATM task.
+ATM is an automatic machine for issuing cash on credit plastic cards. 
+It consists of the following devices: a display, a control panel with buttons, a credit card receiver, 
+a money store and a tray for issuing them, a confiscated credit card repository, a printer for printing references.
+An ATM is connected to a communication line for exchanging data with a bank computer that stores customer account information.
+Customer service begins when the plastic card is placed in an ATM. 
+After recognizing the type of plastic card, the ATM displays the invitation to enter your personal code. 
+The personal code is a four-digit number. Then the ATM checks the correctness of the entered code.
+If the code is incorrect, the user is given two more attempts to enter the correct code. 
+In case of repeated failures, the card moves to the card's storage, and the service session ends.
+After entering the correct code, the ATM prompts the user to select an operation. 
+The client can either withdraw cash from the account, or find out about the balance on his account.
+When withdrawing cash from an account ATM offers to specify the amount (10, 50, 100, 200, 500, 1000 hryvnia). 
+After choosing a customer amount, an ATM invites you to print a transaction reference. 
+The ATM then sends a request to withdraw the selected amount to the bank's central computer. 
+In the case of obtaining a transaction authorization, an ATM checks whether the amount is required in its money store.
+If he can issue money, the message "Remove Card" is displayed. 
+After removing the card from the receiver, the ATM issues the indicated amount in the delivery tray. 
+At the client's request, an ATM prints a certificate for the operation.
+If the client wants to know about the balance on the account, the ATM sends the request to the central computer of the bank and displays the amount on the display. At the request of the client is printed and issued the relevant certificate.
+In a special ATM department, which is closed by the lock, there is a "secret button" used by service personnel to download money. Clicking this button opens access to the money store and confiscated credit cards.
