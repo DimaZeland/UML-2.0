@@ -1,0 +1,18 @@
+Task 1
+To construct in UML-editor a sequence diagram for cash withdrawal from an ATM (ATM task (d. No. 3.2).
+
+
+Task 2.
+Build a chart of activity for the process of registration of a passenger on an airplane. 
+The diagram should reflect the possible states of the process:
+o Checking for a passenger is a complex activity, depicted on a separate chart of activity
+- Ticket display
+- Check ticket (if unsuccessful, then send a passenger to a service center)
+- Checking baggage (if unacknowledged by a police call)
+- If there is 20kg luggage (you need to pay extra)
+- Reception of luggage
+- Issuance of the boarding pass
+In the Passenger Passport image, use the table (partition table, swim lanes) with the Passenger and Passenger Passenger bands)
+o Landing to passenger (complex activity) and Baggage loading on airplane (complex activity) are performed in parallel. 
+Complex activity is indicated in the block of activity (activity) with the sign "fork down"
+o After landing and loading luggage on the aircraft - completion.
